@@ -11,7 +11,7 @@ export default function Main(props) {
   // fetches current data from weather api 
   useEffect(() => {
     const fetchData = async () => {
-      let url = `http://api.weatherapi.com/v1/current.json?key=66b88574173e4e29a95191548242902&q=${props.city}`;
+      let url = `https://api.weatherapi.com/v1/current.json?key=66b88574173e4e29a95191548242902&q=${props.city}`;
       console.log(url);
       try {
         let response = await fetch(url);
