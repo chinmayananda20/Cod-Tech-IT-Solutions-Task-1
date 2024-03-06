@@ -1,0 +1,134 @@
+
+.fc{
+    flex-direction: column;
+}
+.sb{
+    justify-content: space-around;
+}
+.acc{
+    align-items: center;
+}
+.jc{
+    justify-content: center;
+}
+.body{
+    width: 100%;
+    height: 100%;
+}
+/* .body::before{
+    content: '';
+    position: absolute;
+    background: url('C:\\Users\\Chinmayananda\\Desktop\\Codtech\\weather\\src\\images\\bg.jpg') no-repeat center center/cover;;
+    width: 60%;
+    height: 65%;
+    border-radius: 20px;
+    z-index: -2;
+    opacity: 0.9;
+} */
+.btn:hover{
+    box-shadow:   5px 5px 20px yellow;
+}
+.important{
+    height: 100%;
+    background-color: #f2f218;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 420px;
+}
+.currenttime{
+    
+    color: #0e485a;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    width: 100%;
+
+}
+.temp{
+    color: #0e485a;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.mid{
+    width: 50%;
+}
+@media screen and (max-width : 1200px) {
+    .loglat{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .loc{
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width : 990px) {
+    .top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .loglat{
+        flex-direction: row;
+    }
+    .others{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mid{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px ;
+    }
+}
+
+@media screen and (max-width : 770px) {
+    .loglat{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .loc{
+        margin: 20px;
+    }
+    .important{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width : 470px) {
+    .mid{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .pressure, .humidity ,.wind ,.gust{
+        margin:10px;
+    }
+    .important{
+        flex-direction: column;
+        width: 320px;
+        text-align: center;
+    }
+    .mytext{
+        font-size: 30px;
+        font-weight: 500px;
+    }
+}
+@media screen and (max-width : 400px) {
+    .important{
+        width: 270px;
+    }
+}
+
+@media screen and (max-width : 310px) {
+    .important{
+        width: 200px;
+    }
+    .lt{
+        display: none;
+    }
+}

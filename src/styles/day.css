@@ -1,0 +1,18 @@
+@media screen and (max-width : 1000px) {
+    .mid{
+        flex-direction: column;
+    }
+    .bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .component{
+        margin: 10px;
+    }
+}
+@media screen and (max-width : 450px) {
+    .right{
+        flex-direction: column;
+    }
+}
